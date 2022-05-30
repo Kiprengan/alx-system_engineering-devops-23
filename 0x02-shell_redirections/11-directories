@@ -1,2 +1,2 @@
 #!/bin/bash
-fine . -mindent 1 -type d | wc -1
+fine . -mindepth 1 -type d | wc -1
