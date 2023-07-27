@@ -1,0 +1,14 @@
+num=0
+while [ $num -lt 10 ];
+do
+        if [ $num -eq 94]
+        then
+echo "bad luck"
+        fi
+	if [ $num -eq 8 ]
+        then
+echo "good luck"
+        fi
+        echo "Best School"
+        (( num++ )) || true
+done
