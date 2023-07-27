@@ -1,7 +1,9 @@
+#!/usr/bin/env bash
+#Script that displays bad luck for 4 and 8 best for 8
 num=0
 while [ $num -lt 10 ];
 do
-        if [ $num -eq 94]
+        if [ $num -eq 4 ]
         then
 echo "bad luck"
         fi
