@@ -3,11 +3,11 @@
 num=0
 while [ $num -lt 10 ];
 do
-        if [ $num -eq 4 ]
+        if [ $num -eq 3 ]
         then
 echo "bad luck"
         fi
-	if [ $num -eq 8 ]
+	if [ $num -eq 7 ]
         then
 echo "good luck"
         fi
